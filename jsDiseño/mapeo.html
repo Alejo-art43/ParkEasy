@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Parqueaderos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="encabezado">
+        <header>
+            <div class="logo">
+                <h2>The Parking Cun</h2>
+                <img src="img/logotipo .png.webp" alt="" class="logo-img">
+            </div>
+                <nav>
+                    <a href="inicio.html">Inicio</a>
+                    <a href="inicio_sesion.html">Ingresar</a>
+                    <a href="inicio.html">Sobre nosotros</a>
+                </nav>
+           </header>
+    </div>
+    <div class="container">
+        <h1>Encuentra Parqueaderos Cercanos mor</h1>
+        <input type="text" id="ubicacion" placeholder="Ingresa una dirección o coordenadas (lat,lng)">
+        <button id="buscar">Buscar Parqueaderos</button>
+        <div id="resultados"></div> 
+        <div id="map" style="height: 400px; margin-top: 20px;"></div> 
+    </div>
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLzE5FFTM-Vp-v_fC8nviMtYt57RfIGuM&libraries=places"></script>
+    <script src="script.js"></script>
+    <footer>
+        <div class="final">
+            <h1>dejanos saber tus comentarios</h1>
+            <p>formularios</p>
+            <img src="img/rayo.png" alt="imagen9">
+        </div>
+       </footer>
+</body>
+</html>
