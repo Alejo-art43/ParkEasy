@@ -1,4 +1,4 @@
-let inicio = ['juan.pizo.ueb@gmail.com']; //hacemos el arreglo unidimensional guardamos los datos asignados
+let inicio = ['alejo.2345@gmail.com']; //hacemos el arreglo unidimensional guardamos los datos asignados
 let password = ['123456789'];
 
 function cargar(){
